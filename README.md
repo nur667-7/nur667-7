@@ -77,7 +77,7 @@ class Developer:
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏭 <a href="https://github.com/nur667-7/demo">AI Software Factory MVP</a></h3>
+      <h3>🏭 <a href="https://github.com/nur667-7/ai-software-factory">AI Software Factory MVP</a></h3>
       <p>
         Автономный генератор полного цикла: превращает текстовую задачу в готовый проект, коммитит в GitHub репозиторий и деплоит на Vercel с SSE логами.
       </p>
@@ -110,7 +110,7 @@ class Developer:
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>💳 <a href="https://github.com/nur667-7/freedob-bank">Freedom Bank Clone</a></h3>
+      <h3>💳 <a href="https://github.com/nur667-7/freedom-bank">Freedom Bank Clone</a></h3>
       <p>
         Банковская система: ведение лицевых счетов клиентов, переводы средств, начисление кредитов, учет отделений и персонала.
       </p>
