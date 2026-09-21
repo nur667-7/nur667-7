@@ -4,7 +4,7 @@
 
   <p align="center">
     <b>CS Student / Full-Stack & Backend Developer</b><br>
-    Разрабатываю веб-приложения на Java (Spring Boot), React и Python. Живу в Алматы 🇰🇿
+    Разрабатываю веб-приложения на Java (Spring Boot), React / TypeScript и Python. Живу в Алматы 🇰🇿
   </p>
 
   <!-- Кнопки связи -->
@@ -24,11 +24,11 @@ class Developer:
         self.name = "Nurbek Saiduali"
         self.role = "Junior Full-Stack Developer"
         self.location = "Almaty, Kazakhstan 🇰🇿"
-        self.stack = ["Java / Spring Boot", "React / TypeScript", "Python"]
-        self.interests = ["Web Apps", "AI Integration", "Real-Time Streaming"]
+        self.stack = ["Java 21 / Spring Boot 3", "React / TypeScript", "Python"]
+        self.interests = ["Web Apps", "Autonomous AI Agents", "Real-Time Streaming"]
 
     def current_focus(self) -> str:
-        return "Building production-grade CRM solutions and interactive streaming systems."
+        return "Building production-grade CRM solutions, AI-driven factories, and interactive systems."
 ```
 
 ---
@@ -37,19 +37,20 @@ class Developer:
 
 <p align="center">
   <!-- Languages -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
   <br>
   <!-- Frameworks & Tools -->
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
@@ -60,20 +61,39 @@ class Developer:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌾 <a href="https://github.com/nur667-7/farmer_crm">ФермерCRM</a></h3>
+      <h3>🌾 <a href="https://github.com/nur667-7/farmer_crm">ФермерCRM (PWA)</a></h3>
       <p>
-        Веб-приложение для фермеров Казахстана: учет полей, расходов, урожая, складов и встроенный AI-помощник <b>AgroMind</b>.
+        Комплексная система учета для агрохозяйств Казахстана: поля, теплицы, склад удобрений, журнал работ, финансовая аналитика и AI-ассистент <b>AgroMind</b>.
       </p>
       <ul>
-        <li><b>Стек:</b> React, TypeScript, Vite, Tailwind, Dexie (IndexedDB)</li>
-        <li><b>Offline-first:</b> локальное хранение данных в браузере</li>
-        <li><b>AgroMind:</b> AI-ассистент с валидацией операций</li>
+        <li><b>Стек:</b> React 18, TypeScript, Tailwind, Dexie (IndexedDB), Three.js</li>
+        <li><b>Offline-First:</b> надежная работа без доступа к интернету</li>
+        <li><b>AI AgroMind:</b> валидация и автозаполнение агро-операций</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/React-18-20232A?style=flat-square&logo=react" />
-        <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript" />
+        <img src="https://img.shields.io/badge/TypeScript-5.6-3178C6?style=flat-square&logo=typescript" />
+        <img src="https://img.shields.io/badge/PWA-Ready-orange?style=flat-square" />
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3>🏭 <a href="https://github.com/nur667-7/demo">AI Software Factory MVP</a></h3>
+      <p>
+        Автономный генератор полного цикла: превращает текстовую задачу в готовый проект, коммитит в GitHub репозиторий и деплоит на Vercel с SSE логами.
+      </p>
+      <ul>
+        <li><b>Стек:</b> Java 21, Spring Boot 3.5, Google Gemini SDK, GitHub API</li>
+        <li><b>Потоки:</b> стриминг логов сборки через Server-Sent Events (SSE)</li>
+        <li><b>Автоматизация:</b> автоматический деплой и управление ветками</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk" />
+        <img src="https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?style=flat-square&logo=springboot" />
+        <img src="https://img.shields.io/badge/Gemini_AI-1.60-4285F4?style=flat-square&logo=google" />
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>⚔️ <a href="https://github.com/nur667-7/tik-tok.battle">Clan Clash — TikTok LIVE</a></h3>
       <p>
@@ -87,6 +107,21 @@ class Developer:
       <p>
         <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python" />
         <img src="https://img.shields.io/badge/WebSocket-Live-010101?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💳 <a href="https://github.com/nur667-7/freedob-bank">Freedom Bank Clone</a></h3>
+      <p>
+        Банковская система: ведение лицевых счетов клиентов, переводы средств, начисление кредитов, учет отделений и персонала.
+      </p>
+      <ul>
+        <li><b>Стек:</b> Spring Boot, Spring Data JPA, PostgreSQL, React</li>
+        <li><b>Бизнес-логика:</b> транзакционная надежность переводов</li>
+        <li><b>API:</b> документированный REST API для всех сервисов</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Spring_Boot-4.0-6DB33F?style=flat-square&logo=springboot" />
+        <img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=flat-square&logo=postgresql" />
       </p>
     </td>
   </tr>
